@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آموزش زبان انگلیسی هفتم، هشتم و نهم | فاطمه سبحانی نسب</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<style>
+:root{--g1:#d4af37;--g2:#f4d97a;--g3:#b8941f;--gg:linear-gradient(135deg,#d4af37 0%,#f4d97a 40%,#d4af37 60%,#b8941f 100%);--gc:linear-gradient(135deg,#f9ecc9 0%,#e8cf8f 50%,#d4af37 100%);--r:22px}
+body[data-theme="dark"]{--bg:#050b18;--bg1:#0a1730;--bg2:#0d1e3d;--card:linear-gradient(155deg,#0d2044 0%,#081428 100%);--cs:#0d2044;--tx:#eaeff8;--ts:#fff;--mu:#90a3c2;--ln:rgba(212,175,55,.28);--ln2:rgba(212,175,55,.14);--inp:rgba(13,32,68,.8);--sh:0 15px 40px rgba(0,0,0,.5);--shl:0 30px 70px rgba(0,0,0,.7);--glow:0 0 40px rgba(212,175,55,.25);--ov:rgba(5,11,24,.9)}
+body[data-theme="light"]{--bg:#f7f1e0;--bg1:#fdf9ef;--bg2:#fffdf7;--card:linear-gradient(155deg,#fffdf7 0%,#f5ecd3 100%);--cs:#fffdf7;--tx:#1a2440;--ts:#0a1730;--mu:#6b7a94;--ln:rgba(168,132,42,.35);--ln2:rgba(168,132,42,.18);--inp:#fffdf7;--sh:0 15px 40px rgba(120,90,20,.12);--shl:0 30px 70px rgba(120,90,20,.22);--glow:0 0 40px rgba(212,175,55,.3);--ov:rgba(40,30,5,.55)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Vazirmatn',Tahoma,sans-serif;background:radial-gradient(1400px 700px at 80% -10%,rgba(212,175,55,.1),transparent 60%),radial-gradient(1000px 600px at -10% 30%,rgba(21,48,89,.5),transparent 60%),var(--bg);color:var(--tx);line-height:1.9;overflow-x:hidden;min-height:100vh;transition:.4s}
+header{position:sticky;top:0;z-index:100;background:linear-gradient(180deg,var(--bg1) 0%,color-mix(in srgb,var(--bg1) 92%,transparent) 100%);backdrop-filter:blur(20px);border-bottom:1px solid var(--ln)}
+header.scrolled{box-shadow:0 15px 40px rgba(0,0,0,.35)}
+.nav{max-width:1250px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:12px;font-weight:900;font-size:1.02rem;color:var(--ts)}
+.logo .dot{width:46px;height:46px;border-radius:14px;background:var(--gg);display:grid;place-items:center;font-size:1.3rem;color:#0a1730;font-weight:900;box-shadow:0 10px 28px -6px rgba(212,175,55,.7),inset 0 1px 0 rgba(255,255,255,.5),0 0 0 1px rgba(212,175,55,.4)}
+.nav-links{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.nav-links .home-link{text-decoration:none;color:var(--mu);font-weight:800;font-size:.84rem;padding:9px 16px;border-radius:50px;transition:.3s;border:1px solid var(--ln2);display:inline-flex;align-items:center;gap:6px}
+.nav-links .home-link:hover{color:var(--g2);border-color:var(--g1);background:rgba(212,175,55,.08);transform:translateY(-2px)}
+.nav-tools{display:flex;gap:6px;align-items:center;padding:6px;background:var(--gc);border:1.5px solid var(--g1);border-radius:50px;box-shadow:0 10px 28px -10px rgba(212,175,55,.7),inset 0 1px 0 rgba(255,255,255,.7),inset 0 -1px 0 rgba(168,132,42,.2);transition:.3s}
+.nav-tools:hover{box-shadow:0 14px 34px -10px rgba(212,175,55,1),inset 0 1px 0 rgba(255,255,255,.9)}
+.nav-tools button{width:38px;height:38px;border-radius:50%;border:none;background:rgba(255,255,255,.45);color:#0a1730;font-weight:900;font-size:1.02rem;display:grid;place-items:center;cursor:pointer;transition:.35s;position:relative;font-family:inherit;box-shadow:0 3px 8px -3px rgba(0,0,0,.15),inset 0 1px 0 rgba(255,255,255,.9)}
+.nav-tools button:hover{background:#0a1730;color:var(--g2);transform:translateY(-3px) scale(1.1);box-shadow:0 12px 24px -8px rgba(10,23,48,.7)}
+.nav-tools button .badge{position:absolute;top:-3px;left:-3px;background:linear-gradient(135deg,#ec4899,#be185d);color:#fff;font-size:.6rem;font-weight:900;padding:2px 6px;border-radius:50px;min-width:18px;text-align:center;border:1.5px solid #f9ecc9;box-shadow:0 3px 8px rgba(236,72,153,.5);line-height:1}
+.social-nav{display:flex;gap:8px}
+.social-ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;text-decoration:none;transition:.3s;color:#fff;box-shadow:0 8px 22px -8px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.25)}
+.social-ico svg{width:22px;height:22px;fill:currentColor}
+.social-ico.ig{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)}
+.social-ico.wa{background:linear-gradient(135deg,#25D366,#128C7E)}
+.social-ico:hover{transform:translateY(-3px) scale(1.05);box-shadow:0 14px 30px -8px rgba(0,0,0,.5)}
+.hero{position:relative;overflow:hidden;text-align:center;padding:90px 20px 140px;background:radial-gradient(900px 500px at 50% 0%,rgba(212,175,55,.18),transparent 70%),linear-gradient(180deg,var(--bg1) 0%,var(--bg) 100%);border-bottom:1px solid var(--ln)}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(212,175,55,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(212,175,55,.05) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse at center,#000 40%,transparent 78%);pointer-events:none}
+.hero::after{content:"";position:absolute;top:-100px;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(212,175,55,.15) 0%,transparent 65%);pointer-events:none;animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6;transform:translateX(-50%) scale(1)}50%{opacity:1;transform:translateX(-50%) scale(1.15)}}
+.hero-inner{position:relative;z-index:2;max-width:900px;margin:auto}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(212,175,55,.1);border:1px solid var(--ln);padding:8px 22px;border-radius:50px;font-size:.84rem;font-weight:700;color:var(--g2);margin-bottom:26px;backdrop-filter:blur(10px);box-shadow:0 8px 22px -10px rgba(212,175,55,.5)}
+.hero h1{font-size:2.4rem;font-weight:900;line-height:1.3;margin-bottom:20px;color:var(--ts);letter-spacing:-.5px}
+.hero .sub-lead{font-size:1.05rem;color:var(--mu);margin-bottom:32px;max-width:640px;margin-inline:auto;font-weight:500}
+.grade-boxes{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin:0 auto 36px;max-width:720px}
+.gbox{position:relative;flex:1;min-width:170px;max-width:220px;padding:28px 24px 24px;border-radius:20px;background:var(--gc);border:1.5px solid var(--g1);color:#0a1730;font-weight:900;text-align:center;overflow:hidden;box-shadow:0 20px 45px -18px rgba(212,175,55,.8),inset 0 1px 0 rgba(255,255,255,.8),0 0 0 1px rgba(255,255,255,.4);transition:.4s cubic-bezier(.2,.9,.3,1);cursor:default}
+.gbox::before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.7) 50%,transparent 70%);transform:translateX(-100%);transition:.8s;animation:shine 4s infinite}
+@keyframes shine{0%,70%{transform:translateX(-100%) rotate(0)}100%{transform:translateX(100%) rotate(0)}}
+.gbox:hover{transform:translateY(-8px) scale(1.04);box-shadow:0 30px 60px -20px rgba(212,175,55,1),inset 0 1px 0 rgba(255,255,255,1)}
+.gbox .g-num{font-size:1.9rem;font-weight:900;line-height:1;margin-bottom:6px;text-shadow:0 2px 4px rgba(255,255,255,.6);position:relative;z-index:2}
+.gbox .g-name{font-size:1.05rem;font-weight:900;letter-spacing:.3px;position:relative;z-index:2}
+.gbox .g-en{font-size:.7rem;font-weight:700;opacity:.65;direction:ltr;margin-top:2px;position:relative;z-index:2}
+@media(max-width:520px){.grade-boxes{gap:10px}.gbox{min-width:105px;padding:20px 12px 16px}.gbox .g-num{font-size:1.4rem}.gbox .g-name{font-size:.86rem}}
+.btn{padding:15px 34px;border-radius:50px;font-weight:900;text-decoration:none;font-size:1rem;transition:.35s;border:none;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:10px;letter-spacing:.2px}
+.btn-gold{background:var(--gg);color:#0a1730;box-shadow:0 18px 40px -12px rgba(212,175,55,.9),inset 0 2px 0 rgba(255,255,255,.5),0 0 0 1px rgba(212,175,55,.4)}
+.btn-gold:hover{transform:translateY(-4px);box-shadow:0 25px 50px -12px rgba(212,175,55,1),inset 0 2px 0 rgba(255,255,255,.6)}
+.social-hero{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:30px}
+.social-hero a{display:inline-flex;align-items:center;gap:9px;padding:12px 24px;border-radius:50px;text-decoration:none;color:#fff;font-weight:800;font-size:.88rem;transition:.35s;box-shadow:0 12px 30px -10px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.25)}
+.social-hero a svg{width:19px;height:19px;fill:currentColor}
+.social-hero a.ig{background:linear-gradient(135deg,#f09433,#dc2743,#bc1888)}
+.social-hero a.wa{background:linear-gradient(135deg,#25D366,#128C7E)}
+.social-hero a:hover{transform:translateY(-4px) scale(1.03)}
+.teacher{display:inline-flex;align-items:center;gap:12px;background:rgba(21,48,89,.4);border:1px solid var(--ln);padding:12px 24px;border-radius:50px;font-size:.92rem;color:var(--mu);backdrop-filter:blur(10px);box-shadow:0 10px 30px -12px rgba(0,0,0,.4)}
+.teacher strong{color:var(--g2);font-weight:900}
+.wrap{max-width:1200px;margin:auto;padding:0 22px}
+.sec-title{text-align:center;margin-bottom:14px;font-size:2.1rem;font-weight:900;color:var(--ts);display:block;width:100%;letter-spacing:-.5px}
+.sec-title::after{content:"";display:block;width:90px;height:4px;margin:18px auto 0;background:var(--gg);border-radius:4px;box-shadow:0 0 24px rgba(212,175,55,.7)}
+.sec-sub{text-align:center;color:var(--mu);margin-bottom:48px;font-size:1rem;font-weight:500}
+.grades{padding:80px 0 40px;margin-top:-80px;position:relative;z-index:10}
+.grade-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:26px}
+.grade-card{background:var(--card);border:1px solid var(--ln);border-radius:var(--r);padding:42px 28px;text-align:center;cursor:pointer;transition:.5s cubic-bezier(.2,.9,.3,1);position:relative;overflow:hidden;box-shadow:var(--sh)}
+.grade-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:var(--gg);box-shadow:0 0 20px rgba(212,175,55,.6)}
+.grade-card::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 40%,rgba(212,175,55,.15) 50%,transparent 60%);transform:translateX(-100%);transition:.8s}
+.grade-card:hover::after{transform:translateX(100%)}
+.grade-card:hover,.grade-card.active{transform:translateY(-14px);border-color:var(--g1);box-shadow:var(--shl),var(--glow)}
+.g-ico{width:92px;height:92px;border-radius:26px;margin:0 auto 22px;display:grid;place-items:center;font-size:2.3rem;font-weight:900;color:#0a1730;background:var(--gg);transition:.5s;box-shadow:0 20px 40px -12px rgba(212,175,55,.8),inset 0 2px 0 rgba(255,255,255,.5),0 0 0 1px rgba(212,175,55,.4)}
+.grade-card:hover .g-ico{transform:rotate(-10deg) scale(1.12)}
+.grade-card h3{font-size:1.55rem;font-weight:900;margin-bottom:8px;color:var(--ts)}
+.grade-card .book{color:var(--mu);font-size:.86rem;margin-bottom:22px;font-weight:600}
+.grade-card .go{display:inline-block;padding:12px 30px;border-radius:50px;font-weight:900;font-size:.87rem;color:var(--g2);background:rgba(212,175,55,.1);border:1px solid var(--ln);transition:.35s}
+.grade-card:hover .go{background:var(--gg);color:#0a1730;border-color:transparent;box-shadow:0 12px 28px -8px rgba(212,175,55,.9)}
+.lessons-sec{padding:60px 0 100px}
+.lessons-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin-bottom:24px;padding:24px 28px;border-radius:var(--r);background:var(--card);border:1px solid var(--ln);box-shadow:var(--sh)}
+.lessons-head h2{font-size:1.3rem;font-weight:900;display:flex;align-items:center;gap:12px;color:var(--ts);flex-wrap:wrap}
+.lessons-head h2 .bar{width:6px;height:28px;border-radius:6px;background:var(--gg);box-shadow:0 0 16px rgba(212,175,55,.7)}
+.lessons-head h2 small{font-size:.72rem;color:var(--mu);font-weight:600}
+.speed{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--mu);font-weight:700;flex-wrap:wrap}
+.speed button{border:1px solid var(--ln);background:rgba(212,175,55,.05);padding:8px 15px;border-radius:50px;cursor:pointer;font-family:inherit;font-size:.78rem;font-weight:800;color:var(--mu);transition:.3s}
+.speed button:hover{border-color:var(--g1);color:var(--g2)}
+.speed button.on{background:var(--gg);border-color:transparent;color:#0a1730;box-shadow:0 8px 20px -6px rgba(212,175,55,.8)}
+.lesson{background:var(--card);border:1px solid var(--ln);border-radius:var(--r);margin-bottom:16px;overflow:hidden;transition:.35s;box-shadow:var(--sh)}
+.lesson:hover{border-color:rgba(212,175,55,.5)}
+.lesson.open{border-color:var(--g1);box-shadow:var(--shl),var(--glow)}
+.lesson-head{padding:20px 24px;display:flex;align-items:center;gap:16px;cursor:pointer;transition:.3s}
+.lesson-head:hover{background:rgba(212,175,55,.05)}
+.lnum{width:52px;height:52px;border-radius:16px;flex-shrink:0;display:grid;place-items:center;font-weight:900;color:#0a1730;font-size:1.1rem;background:var(--gg);box-shadow:0 12px 26px -8px rgba(212,175,55,.8),inset 0 2px 0 rgba(255,255,255,.4)}
+.ltitle{font-weight:900;font-size:1.05rem;color:var(--ts);direction:ltr;text-align:right;letter-spacing:.2px}
+.lsub{font-size:.8rem;color:var(--mu);margin-top:3px;font-weight:600}
+.arrow{width:36px;height:36px;border-radius:50%;background:rgba(212,175,55,.1);border:1px solid var(--ln);display:grid;place-items:center;transition:.4s;color:var(--g2);flex-shrink:0;font-size:.75rem;font-weight:900}
+.lesson.open .arrow{transform:rotate(180deg);background:var(--gg);color:#0a1730;border-color:transparent;box-shadow:0 8px 20px -6px rgba(212,175,55,.8)}
+.lesson-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s ease}
+.lesson-inner{overflow:hidden;min-height:0}
+.lesson.open .lesson-body{grid-template-rows:1fr}
+.tabs{display:flex;gap:8px;padding:0 24px 16px;border-bottom:1px solid var(--ln);flex-wrap:wrap}
+.tab{padding:11px 22px;border-radius:50px;border:1px solid var(--ln);background:rgba(212,175,55,.05);cursor:pointer;font-family:inherit;font-weight:800;font-size:.84rem;color:var(--mu);transition:.3s}
+.tab:hover{color:var(--g2);border-color:var(--g1)}
+.tab.on{background:var(--gg);color:#0a1730;border-color:transparent;box-shadow:0 10px 24px -8px rgba(212,175,55,.9)}
+.pane{padding:26px 24px 32px;display:none}
+.pane.on{display:block;animation:fade .4s}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.playall{display:inline-flex;align-items:center;gap:9px;background:var(--gg);color:#0a1730;border:none;padding:13px 26px;border-radius:50px;cursor:pointer;font-family:inherit;font-weight:900;font-size:.86rem;margin-bottom:20px;transition:.35s;box-shadow:0 14px 30px -10px rgba(212,175,55,.9),inset 0 2px 0 rgba(255,255,255,.4)}
+.playall:hover{transform:translateY(-3px);box-shadow:0 20px 40px -10px rgba(212,175,55,1)}
+.playall.stop{background:linear-gradient(135deg,#ef4444,#b91c1c);color:#fff;box-shadow:0 14px 30px -10px rgba(239,68,68,.8)}
+.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:12px}
+.word{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:16px;background:var(--inp);border:1px solid var(--ln);transition:.3s}
+.word:hover{background:var(--bg2);border-color:var(--g1);transform:translateX(-5px);box-shadow:0 12px 30px -12px rgba(212,175,55,.6)}
+.word.speaking{background:rgba(212,175,55,.15);border-color:var(--g1);box-shadow:0 0 0 4px rgba(212,175,55,.18)}
+.spk{width:40px;height:40px;border-radius:50%;border:none;flex-shrink:0;cursor:pointer;background:var(--gg);color:#0a1730;font-size:.95rem;display:grid;place-items:center;transition:.3s;box-shadow:0 10px 24px -8px rgba(212,175,55,.9),inset 0 1px 0 rgba(255,255,255,.5)}
+.spk:hover{transform:scale(1.15);box-shadow:0 14px 30px -8px rgba(212,175,55,1)}
+.spk:active{transform:scale(.95)}
+.w-en{font-weight:900;font-size:.98rem;color:var(--ts);direction:ltr;text-align:left;letter-spacing:.2px}
+.w-fa{font-size:.84rem;color:var(--mu);font-weight:500}
+.heart{width:36px;height:36px;border-radius:50%;border:1px solid var(--ln);background:transparent;cursor:pointer;font-size:.95rem;display:grid;place-items:center;transition:.3s;flex-shrink:0}
+.heart:hover{transform:scale(1.15);border-color:#ec4899}
+.heart.on{background:linear-gradient(135deg,#ec4899,#be185d);border-color:transparent;color:#fff;box-shadow:0 10px 24px -8px rgba(236,72,153,.8)}
+.conv{display:flex;flex-direction:column;gap:14px}
+.line{display:flex;gap:14px;align-items:flex-start;padding:16px;border-radius:18px;background:var(--inp);border:1px solid var(--ln);transition:.3s}
+.line:hover{background:var(--bg2);border-color:var(--g1);box-shadow:0 12px 30px -14px rgba(212,175,55,.6)}
+.line.speaking{background:rgba(212,175,55,.15);border-color:var(--g1);box-shadow:0 0 0 4px rgba(212,175,55,.18)}
+.avatar{width:44px;height:44px;border-radius:50%;flex-shrink:0;display:grid;place-items:center;font-weight:900;color:#0a1730;font-size:.98rem;background:var(--gg);box-shadow:0 10px 24px -8px rgba(212,175,55,.8),inset 0 1px 0 rgba(255,255,255,.5)}
+.line .body{flex:1;min-width:0}
+.line .en{font-weight:800;direction:ltr;text-align:left;color:var(--ts);font-size:.95rem}
+.line .fa{font-size:.84rem;color:var(--mu);margin-top:5px}
+.gram-box{background:linear-gradient(135deg,rgba(212,175,55,.12),rgba(212,175,55,.02));border:1.5px solid var(--ln);border-radius:20px;padding:22px 24px;margin-bottom:18px;box-shadow:0 12px 30px -14px rgba(212,175,55,.5)}
+.gram-title{font-size:1.05rem;font-weight:900;color:var(--g2);margin-bottom:14px;direction:ltr;text-align:right;display:flex;align-items:center;gap:10px;text-shadow:0 0 20px rgba(212,175,55,.5)}
+.gram-title::before{content:"📘";font-size:1.15rem}
+.gram-body{font-size:.92rem;color:var(--tx);line-height:2.05;margin-bottom:16px;padding:16px;border-radius:14px;background:var(--inp);border:1px solid var(--ln2)}
+.gram-body strong{color:var(--g2);font-weight:900;padding:1px 6px;border-radius:6px;background:rgba(212,175,55,.12)}
+.gram-ex{display:flex;flex-direction:column;gap:10px}
+.gram-ex-item{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:var(--inp);border:1px solid var(--ln2);transition:.3s}
+.gram-ex-item:hover{background:var(--bg2);border-color:var(--g1);box-shadow:0 10px 24px -12px rgba(212,175,55,.5)}
+.gram-ex-item.speaking{background:rgba(212,175,55,.15);border-color:var(--g1)}
+.gram-ex-item .en{flex:1;font-weight:800;direction:ltr;text-align:left;color:var(--ts);font-size:.9rem}
+.gram-ex-item .fa{font-size:.8rem;color:var(--mu);min-width:100px;text-align:left;font-weight:500}
+.empty{text-align:center;padding:80px 20px;color:var(--mu);background:var(--card);border-radius:var(--r);border:1.5px dashed var(--ln);box-shadow:var(--sh)}
+.empty .big{font-size:3.5rem;margin-bottom:16px;opacity:.7;filter:drop-shadow(0 0 20px rgba(212,175,55,.5))}
+.empty h3{font-size:1.2rem;color:var(--ts);margin-bottom:10px;font-weight:900}
+footer{background:linear-gradient(180deg,var(--bg1),var(--bg));color:var(--mu);padding:65px 22px 35px;text-align:center;border-top:1px solid var(--ln);position:relative}
+footer::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:160px;height:3px;background:var(--gg);border-radius:3px;box-shadow:0 0 30px rgba(212,175,55,.8)}
+footer .fname{font-size:1.5rem;font-weight:900;margin-bottom:8px;background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-.3px}
+footer .fdesc{font-size:.9rem;margin-bottom:32px;font-weight:600}
+.qr-section{display:flex;gap:30px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
+.qr-card{background:var(--card);border:1.5px solid var(--ln);border-radius:20px;padding:20px;min-width:185px;transition:.4s;box-shadow:var(--sh)}
+.qr-card:hover{transform:translateY(-8px);border-color:var(--g1);box-shadow:var(--shl),var(--glow)}
+.qr-card img{width:160px;height:160px;border-radius:14px;background:#fff;padding:8px;display:block;margin:0 auto 12px;box-shadow:0 10px 24px -10px rgba(0,0,0,.4)}
+.qr-card .lbl{font-size:.88rem;font-weight:900;color:var(--ts);display:flex;align-items:center;justify-content:center;gap:7px;margin-bottom:8px}
+.qr-card .lbl svg{width:18px;height:18px;fill:currentColor}
+.qr-card .lbl.ig{color:#dc2743}
+.qr-card .lbl.wa{color:#25D366}
+.qr-card .hint{font-size:.74rem;color:var(--mu);direction:ltr;font-weight:700}
+.footer-social{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:32px}
+.footer-social a{color:var(--mu);text-decoration:none;padding:12px 24px;border-radius:50px;background:rgba(212,175,55,.06);border:1px solid var(--ln);font-size:.86rem;font-weight:800;transition:.35s;display:inline-flex;align-items:center;gap:8px}
+.footer-social a svg{width:18px;height:18px;fill:currentColor}
+.footer-social a:hover{transform:translateY(-4px);color:#fff}
+.footer-social a.ig:hover{background:linear-gradient(135deg,#f09433,#dc2743,#bc1888);border-color:transparent;box-shadow:0 15px 35px -12px rgba(220,39,67,.9)}
+.footer-social a.wa:hover{background:linear-gradient(135deg,#25D366,#128C7E);border-color:transparent;box-shadow:0 15px 35px -12px rgba(37,211,102,.9)}
+footer .copy{font-size:.78rem;opacity:.6;border-top:1px solid var(--ln);padding-top:26px;font-weight:500}
+.modal-bg{position:fixed;inset:0;background:var(--ov);backdrop-filter:blur(12px);z-index:1000;display:none;align-items:flex-start;justify-content:center;padding:22px;overflow-y:auto}
+.modal-bg.show{display:flex;animation:fade .3s}
+.modal{background:var(--cs);border:1.5px solid var(--ln);border-radius:26px;max-width:820px;width:100%;margin:auto;box-shadow:0 40px 100px -20px rgba(0,0,0,.7),0 0 0 1px rgba(212,175,55,.15);overflow:hidden}
+.modal-head{padding:24px 28px;border-bottom:1px solid var(--ln);display:flex;justify-content:space-between;align-items:center;gap:14px;background:var(--card)}
+.modal-head h3{font-size:1.15rem;font-weight:900;color:var(--ts);display:flex;align-items:center;gap:12px}
+.modal-head h3 .bar{width:6px;height:24px;border-radius:6px;background:var(--gg);box-shadow:0 0 16px rgba(212,175,55,.7)}
+.modal-close{width:40px;height:40px;border-radius:50%;border:1px solid var(--ln);background:transparent;color:var(--mu);cursor:pointer;font-size:1.05rem;display:grid;place-items:center;transition:.3s}
+.modal-close:hover{background:linear-gradient(135deg,#ef4444,#b91c1c);color:#fff;border-color:transparent;transform:rotate(90deg) scale(1.08)}
+.modal-body{padding:26px 28px;max-height:72vh;overflow-y:auto}
+.search-inp{width:100%;padding:16px 22px;border-radius:50px;background:var(--inp);border:1.5px solid var(--ln);color:var(--ts);font-family:inherit;font-size:.96rem;font-weight:700;margin-bottom:22px;outline:none;transition:.3s}
+.search-inp:focus{border-color:var(--g1);box-shadow:0 0 0 4px rgba(212,175,55,.2)}
+.search-result{padding:14px 16px;border-radius:14px;background:var(--inp);border:1px solid var(--ln);margin-bottom:10px;display:flex;align-items:center;gap:12px;transition:.3s}
+.search-result:hover{border-color:var(--g1);transform:translateX(-4px)}
+.search-result .src{font-size:.72rem;color:var(--g2);font-weight:900;background:rgba(212,175,55,.15);padding:3px 10px;border-radius:50px;border:1px solid var(--ln);white-space:nowrap}
+.quiz-progress{height:8px;background:var(--inp);border-radius:6px;margin-bottom:20px;overflow:hidden;border:1px solid var(--ln)}
+.quiz-progress .bar{height:100%;background:var(--gg);border-radius:6px;transition:width .5s;box-shadow:0 0 16px rgba(212,175,55,.7)}
+.quiz-q{font-size:1.15rem;font-weight:900;color:var(--ts);text-align:center;margin:20px 0 8px;direction:ltr;letter-spacing:.3px}
+.quiz-q-fa{text-align:center;color:var(--mu);font-size:.88rem;margin-bottom:26px;font-weight:600}
+.quiz-opt{display:block;width:100%;text-align:right;padding:16px 22px;margin-bottom:12px;border-radius:16px;background:var(--inp);border:1.5px solid var(--ln);color:var(--tx);font-family:inherit;font-weight:800;font-size:.94rem;cursor:pointer;transition:.3s}
+.quiz-opt:hover{border-color:var(--g1);transform:translateX(-4px);box-shadow:0 10px 24px -12px rgba(212,175,55,.6)}
+.quiz-opt.correct{background:linear-gradient(135deg,#10b981,#059669);color:#fff;border-color:transparent;box-shadow:0 14px 30px -10px rgba(16,185,129,.7)}
+.quiz-opt.wrong{background:linear-gradient(135deg,#ef4444,#b91c1c);color:#fff;border-color:transparent;box-shadow:0 14px 30px -10px rgba(239,68,68,.7)}
+.quiz-result{text-align:center;padding:28px 0}
+.quiz-result .score{font-size:3.5rem;font-weight:900;background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1;filter:drop-shadow(0 0 20px rgba(212,175,55,.5))}
+.quiz-result .msg{color:var(--mu);margin-top:12px;font-size:1rem;font-weight:700}
+.quiz-result .stars{font-size:2rem;margin:18px 0;letter-spacing:8px}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px;margin-bottom:26px}
+.stat-card{background:var(--inp);border:1px solid var(--ln);border-radius:18px;padding:20px;text-align:center;transition:.3s;box-shadow:0 10px 24px -14px rgba(0,0,0,.4)}
+.stat-card:hover{border-color:var(--g1);transform:translateY(-4px)}
+.stat-card .num{font-size:2rem;font-weight:900;background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.2}
+.stat-card .lbl{font-size:.8rem;color:var(--mu);font-weight:800;margin-top:6px}
+.progress-item{margin-bottom:16px}
+.progress-item .row{display:flex;justify-content:space-between;font-size:.88rem;font-weight:800;margin-bottom:8px;color:var(--ts)}
+.progress-item .row .pct{color:var(--g2)}
+.progress-bar{height:10px;background:var(--inp);border-radius:6px;overflow:hidden;border:1px solid var(--ln)}
+.progress-bar .fill{height:100%;background:var(--gg);border-radius:6px;transition:width .6s;box-shadow:0 0 14px rgba(212,175,55,.6)}
+.modal-foot{padding:20px 28px;border-top:1px solid var(--ln);display:flex;gap:12px;justify-content:center;flex-wrap:wrap;background:var(--card)}
+.btn-sm{padding:12px 26px;border-radius:50px;font-weight:900;font-size:.88rem;border:none;cursor:pointer;font-family:inherit;transition:.3s;display:inline-flex;align-items:center;gap:7px}
+.btn-sm.gold{background:var(--gg);color:#0a1730;box-shadow:0 12px 28px -10px rgba(212,175,55,.9)}
+.btn-sm.gold:hover{transform:translateY(-3px)}
+#toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(24px);background:var(--cs);border:1.5px solid var(--g1);color:var(--g2);padding:14px 26px;border-radius:50px;font-size:.86rem;font-weight:900;opacity:0;pointer-events:none;transition:.4s;z-index:2000;max-width:90vw;box-shadow:0 25px 60px -15px rgba(0,0,0,.6),0 0 30px rgba(212,175,55,.4)}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+#top{position:fixed;bottom:26px;left:24px;width:54px;height:54px;border-radius:50%;background:var(--gg);color:#0a1730;border:none;cursor:pointer;font-size:1.2rem;font-weight:900;display:grid;place-items:center;opacity:0;pointer-events:none;transition:.4s;z-index:99;box-shadow:0 18px 40px -10px rgba(212,175,55,1),inset 0 2px 0 rgba(255,255,255,.5)}
+#top.show{opacity:1;pointer-events:auto}
+#top:hover{transform:translateY(-5px) scale(1.08)}
+.fsn-section{padding:100px 22px;position:relative;overflow:hidden;background:linear-gradient(180deg,var(--bg) 0%,var(--bg1) 100%);border-top:1px solid var(--ln);border-bottom:1px solid var(--ln);margin-top:20px}
+.fsn-section::before{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(212,175,55,.12) 0%,transparent 60%);pointer-events:none}
+.fsn-wrap{max-width:1100px;margin:auto;position:relative;z-index:2}
+.fsn-header{text-align:center;margin-bottom:60px}
+.fsn-badge{display:inline-flex;align-items:center;gap:12px;background:var(--gc);color:#0a1730;font-weight:900;font-size:.85rem;padding:11px 28px;border-radius:50px;margin-bottom:26px;box-shadow:0 15px 35px -12px rgba(212,175,55,.9),inset 0 1px 0 rgba(255,255,255,.6);letter-spacing:2px;direction:ltr}
+.fsn-badge .fsn-letters{font-size:1.4rem;font-weight:900;letter-spacing:5px}
+.fsn-title{font-size:2.6rem;font-weight:900;color:var(--ts);margin-bottom:16px;letter-spacing:-.5px;line-height:1.3}
+.fsn-title span{background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent}
+.fsn-sub{font-size:1.08rem;color:var(--mu);max-width:680px;margin:0 auto;font-weight:500;line-height:2}
+.fsn-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:24px;margin-bottom:54px}
+.fsn-card{background:var(--card);border:1.5px solid var(--ln);border-radius:24px;padding:36px 26px;text-align:center;transition:.5s cubic-bezier(.2,.9,.3,1);position:relative;overflow:hidden;box-shadow:var(--sh)}
+.fsn-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:var(--gg);box-shadow:0 0 20px rgba(212,175,55,.6)}
+.fsn-card::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 40%,rgba(212,175,55,.15) 50%,transparent 60%);transform:translateX(-100%);transition:.8s}
+.fsn-card:hover::after{transform:translateX(100%)}
+.fsn-card:hover{transform:translateY(-12px);border-color:var(--g1);box-shadow:var(--shl),var(--glow)}
+.fsn-ico{width:84px;height:84px;border-radius:26px;margin:0 auto 22px;display:grid;place-items:center;font-size:2.2rem;font-weight:900;color:#0a1730;background:var(--gg);box-shadow:0 18px 40px -12px rgba(212,175,55,.85),inset 0 2px 0 rgba(255,255,255,.5),0 0 0 1px rgba(212,175,55,.4);transition:.5s;font-family:Arial,sans-serif}
+.fsn-card:hover .fsn-ico{transform:rotate(-8deg) scale(1.12)}
+.fsn-card h3{font-size:1.2rem;font-weight:900;color:var(--ts);margin-bottom:12px}
+.fsn-card p{font-size:.9rem;color:var(--mu);line-height:2;font-weight:500}
+.fsn-promo{background:var(--card);border:2px solid var(--g1);border-radius:28px;padding:48px 42px;text-align:center;position:relative;overflow:hidden;box-shadow:0 30px 70px -20px rgba(212,175,55,.5),0 0 60px -20px rgba(212,175,55,.35)}
+.fsn-promo::before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:linear-gradient(115deg,transparent 30%,rgba(212,175,55,.12) 50%,transparent 70%);animation:shine 6s infinite}
+.fsn-promo h3{font-size:1.65rem;font-weight:900;background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:22px;position:relative;z-index:2;letter-spacing:-.3px}
+.fsn-promo p{font-size:1rem;color:var(--tx);line-height:2.15;margin-bottom:16px;position:relative;z-index:2;font-weight:600}
+.fsn-promo .highlight{color:#0a1730;font-weight:900;background:var(--gc);padding:3px 12px;border-radius:10px;box-shadow:0 6px 14px -6px rgba(212,175,55,.7)}
+.fsn-promo .signature{font-size:.92rem;color:var(--mu);margin-top:26px;position:relative;z-index:2;font-weight:700;letter-spacing:.3px}
+.fsn-promo .signature strong{background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media(max-width:700px){.hero{padding:65px 16px 110px}.hero h1{font-size:1.75rem}.nav{padding:12px 16px}.logo{font-size:.9rem}.logo .dot{width:38px;height:38px}.nav-links a,.nav-links .icon-box{padding:7px 11px;font-size:.76rem}.sec-title{font-size:1.55rem}.lessons-head{flex-direction:column;align-items:stretch;padding:18px}.words{grid-template-columns:1fr}.pane{padding:20px 16px 26px}.lesson-head{padding:16px}.ltitle{font-size:.92rem}.lnum{width:44px;height:44px;font-size:.98rem}.qr-card img{width:135px;height:135px}.gram-ex-item{flex-direction:column;align-items:flex-start}.gram-ex-item .fa{text-align:right;min-width:0}.modal{border-radius:20px}.modal-head,.modal-body,.modal-foot{padding-left:18px;padding-right:18px}.fsn-section{padding:70px 18px}.fsn-title{font-size:1.8rem}.fsn-sub{font-size:.95rem}.fsn-card{padding:28px 22px}.fsn-ico{width:72px;height:72px;font-size:1.9rem}.fsn-promo{padding:32px 24px;border-radius:22px}.fsn-promo h3{font-size:1.3rem}.fsn-promo p{font-size:.9rem}}
+</style>
+</head>
+<body data-theme="dark">
+
+<header id="hdr">
+  <div class="nav">
+    <div class="logo"><div class="dot">S</div><div>فاطمه سبحانی نسب</div></div>
+    <div class="nav-links">
+      <a href="#fsn" class="home-link">✨ متد FSN</a>
+      <a href="#grades" class="home-link">📚 پایه‌ها</a>
+      <div class="nav-tools">
+        <button id="btnSearch" title="جستجو">🔍</button>
+        <button id="btnFav" title="علاقه‌مندی‌ها">❤️<span class="badge" id="favCount">0</span></button>
+        <button id="btnStats" title="آمار">📊</button>
+        <button id="btnTheme" title="تغییر تم">🌙</button>
+      </div>
+      <div class="social-nav">
+        <a class="social-ico ig" href="https://instagram.com/sobhani.nasab" target="_blank" rel="noopener" title="اینستاگرام">
+          <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.3-.1 1.7-.1 4.9-.1zM12 0C8.7 0 8.3 0 7 .1 5.8.2 4.9.4 4.1.7c-.8.3-1.5.8-2.2 1.4-.6.6-1.1 1.3-1.4 2.2-.3.8-.5 1.7-.6 2.9C0 8.3 0 8.7 0 12s0 3.7.1 5c.1 1.2.3 2.1.6 2.9.3.8.8 1.5 1.4 2.2.6.6 1.3 1.1 2.2 1.4.8.3 1.7.5 2.9.6 1.3.1 1.7.1 4.8.1s3.7 0 5-.1c1.2-.1 2.1-.3 2.9-.6.8-.3 1.5-.8 2.2-1.4.6-.6 1.1-1.3 1.4-2.2.3-.8.5-1.7.6-2.9.1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.2-.3-2.1-.6-2.9-.3-.8-.8-1.5-1.4-2.2-.6-.6-1.3-1.1-2.2-1.4-.8-.3-1.7-.5-2.9-.6C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-10.8a1.4 1.4 0 11-2.9 0 1.4 1.4 0 012.9 0z"/></svg>
+        </a>
+        <a class="social-ico wa" href="https://wa.me/989058724626" target="_blank" rel="noopener" title="واتساپ">
+          <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.6-1.5-.9-2.1-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3zM12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="badge">✨ آموزش حرفه‌ای زبان انگلیسی متوسطه اول</div>
+    <h1>یادگیری زبان انگلیسی</h1>
+    <div class="grade-boxes">
+      <div class="gbox"><div class="g-num">۷</div><div class="g-name">هفتم</div><div class="g-en">Grade 7</div></div>
+      <div class="gbox"><div class="g-num">۸</div><div class="g-name">هشتم</div><div class="g-en">Grade 8</div></div>
+      <div class="gbox"><div class="g-num">۹</div><div class="g-name">نهم</div><div class="g-en">Grade 9</div></div>
+    </div>
+    <p class="sub-lead">واژگان، گرامر، مکالمه، آزمون، جستجو و تلفظ صوتی روان</p>
+    <div class="social-hero">
+      <a class="ig" href="https://instagram.com/sobhani.nasab" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.3-.1 1.7-.1 4.9-.1zM12 0C8.7 0 8.3 0 7 .1 5.8.2 4.9.4 4.1.7c-.8.3-1.5.8-2.2 1.4-.6.6-1.1 1.3-1.4 2.2-.3.8-.5 1.7-.6 2.9C0 8.3 0 8.7 0 12s0 3.7.1 5c.1 1.2.3 2.1.6 2.9.3.8.8 1.5 1.4 2.2.6.6 1.3 1.1 2.2 1.4.8.3 1.7.5 2.9.6 1.3.1 1.7.1 4.8.1s3.7 0 5-.1c1.2-.1 2.1-.3 2.9-.6.8-.3 1.5-.8 2.2-1.4.6-.6 1.1-1.3 1.4-2.2.3-.8.5-1.7.6-2.9.1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.2-.3-2.1-.6-2.9-.3-.8-.8-1.5-1.4-2.2-.6-.6-1.3-1.1-2.2-1.4-.8-.3-1.7-.5-2.9-.6C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-10.8a1.4 1.4 0 11-2.9 0 1.4 1.4 0 012.9 0z"/></svg>
+        اینستاگرام
+      </a>
+      <a class="wa" href="https://wa.me/989058724626" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.6-1.5-.9-2.1-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3zM12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2z"/></svg>
+        واتساپ
+      </a>
+    </div>
+    <a href="#grades" class="btn btn-gold">🚀 شروع یادگیری</a>
+    <div class="teacher" style="margin-top:26px"><span>👩‍🏫</span><span>مدرس و طراح سایت: <strong>فاطمه سبحانی نسب</strong></span></div>
+  </div>
+</section>
+
+<section class="fsn-section" id="fsn">
+  <div class="fsn-wrap">
+    <div class="fsn-header">
+      <div class="fsn-badge"><span class="fsn-letters">FSN</span><span>M E T H O D</span></div>
+      <h2 class="fsn-title">متد اختصاصی <span>FSN</span></h2>
+      <p class="fsn-sub">روشی نوین و انقلابی در یادگیری زبان انگلیسی، طراحی‌شده توسط فاطمه سبحانی نسب</p>
+    </div>
+    <div class="fsn-grid">
+      <div class="fsn-card"><div class="fsn-ico">F</div><h3>تمرکز هوشمند</h3><p>Focus — یادگیری هدفمند واژگان و ساختارهای کلیدی، بدون سردرگمی و پراکندگی؛ فقط چیزی که واقعاً لازم داری.</p></div>
+      <div class="fsn-card"><div class="fsn-ico">S</div><h3>تکرار منظم</h3><p>Systematic — مرور پیوسته و ساختاریافته برای تثبیت کامل مطالب در حافظه بلندمدت؛ یادگیری فراموش نمی‌شود.</p></div>
+      <div class="fsn-card"><div class="fsn-ico">N</div><h3>تسلط طبیعی</h3><p>Natural — مهارت‌های گفتاری و شنیداری به‌صورت طبیعی و کاربردی شکل می‌گیرند؛ مثل زبان مادری.</p></div>
+    </div>
+    <div class="fsn-promo">
+      <h3>✨ چرا متد FSN؟</h3>
+      <p>اگر از روش‌های سنتی خسته شده‌ای و به دنبال روشی هستی که <span class="highlight">واقعاً جواب بدهد</span>، متد FSN همان چیزی است که منتظرش بودی.</p>
+      <p>این روش حاصل سال‌ها تجربه‌ی تدریس و مطالعه‌ی عمیق روانشناسی یادگیری است. به جای حفظ کردن طوطی‌وار، تو یاد می‌گیری <span class="highlight">به انگلیسی فکر کنی</span>، <span class="highlight">به انگلیسی حرف بزنی</span> و <span class="highlight">به انگلیسی زندگی کنی</span>.</p>
+      <p>هزاران زبان‌آموز با متد FSN توانسته‌اند در کمترین زمان، بیشترین پیشرفت را تجربه کنند. حالا نوبت توست که این مسیر طلایی را شروع کنی 🚀</p>
+      <div class="signature">— طراحی‌شده با عشق توسط <strong>فاطمه سبحانی نسب</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="grades" id="grades">
+  <div class="wrap">
+    <h2 class="sec-title">پایه تحصیلی خود را انتخاب کنید</h2>
+    <p class="sec-sub">روی هر پایه کلیک کن تا فهرست کامل درس‌هایش باز شود</p>
+    <div class="grade-grid" id="gradeGrid"></div>
+  </div>
+</section>
+
+<section class="lessons-sec" id="lessons">
+  <div class="wrap" id="lessonWrap">
+    <div class="empty"><div class="big">📚</div><h3>هنوز پایه‌ای انتخاب نشده</h3><p>از بخش بالا یکی از پایه‌های هفتم، هشتم یا نهم را انتخاب کن</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="fname">فاطمه سبحانی نسب</div>
+  <div class="fdesc">مدرس زبان انگلیسی | طراح و توسعه‌دهنده این سایت</div>
+  <div class="qr-section">
+    <div class="qr-card">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Finstagram.com%2Fsobhani.nasab&bgcolor=FFFFFF&color=0A1730&margin=8" alt="QR اینستاگرام" loading="lazy">
+      <div class="lbl ig"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.3-.1 1.7-.1 4.9-.1zM12 0C8.7 0 8.3 0 7 .1 5.8.2 4.9.4 4.1.7c-.8.3-1.5.8-2.2 1.4-.6.6-1.1 1.3-1.4 2.2-.3.8-.5 1.7-.6 2.9C0 8.3 0 8.7 0 12s0 3.7.1 5c.1 1.2.3 2.1.6 2.9.3.8.8 1.5 1.4 2.2.6.6 1.3 1.1 2.2 1.4.8.3 1.7.5 2.9.6 1.3.1 1.7.1 4.8.1s3.7 0 5-.1c1.2-.1 2.1-.3 2.9-.6.8-.3 1.5-.8 2.2-1.4.6-.6 1.1-1.3 1.4-2.2.3-.8.5-1.7.6-2.9.1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.2-.3-2.1-.6-2.9-.3-.8-.8-1.5-1.4-2.2-.6-.6-1.3-1.1-2.2-1.4-.8-.3-1.7-.5-2.9-.6C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-10.8a1.4 1.4 0 11-2.9 0 1.4 1.4 0 012.9 0z"/></svg> اینستاگرام</div>
+      <div class="hint">@sobhani.nasab</div>
+    </div>
+    <div class="qr-card">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fwa.me%2F989058724626&bgcolor=FFFFFF&color=0A1730&margin=8" alt="QR واتساپ" loading="lazy">
+      <div class="lbl wa"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.6-1.5-.9-2.1-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3zM12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2z"/></svg> واتساپ</div>
+      <div class="hint">QR کد</div>
+    </div>
+  </div>
+  <div class="footer-social">
+    <a class="ig" href="https://instagram.com/sobhani.nasab" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.3-.1 1.7-.1 4.9-.1zM12 0C8.7 0 8.3 0 7 .1 5.8.2 4.9.4 4.1.7c-.8.3-1.5.8-2.2 1.4-.6.6-1.1 1.3-1.4 2.2-.3.8-.5 1.7-.6 2.9C0 8.3 0 8.7 0 12s0 3.7.1 5c.1 1.2.3 2.1.6 2.9.3.8.8 1.5 1.4 2.2.6.6 1.3 1.1 2.2 1.4.8.3 1.7.5 2.9.6 1.3.1 1.7.1 4.8.1s3.7 0 5-.1c1.2-.1 2.1-.3 2.9-.6.8-.3 1.5-.8 2.2-1.4.6-.6 1.1-1.3 1.4-2.2.3-.8.5-1.7.6-2.9.1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.2-.3-2.1-.6-2.9-.3-.8-.8-1.5-1.4-2.2-.6-.6-1.3-1.1-2.2-1.4-.8-.3-1.7-.5-2.9-.6C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-10.8a1.4 1.4 0 11-2.9 0 1.4 1.4 0 012.9 0z"/></svg> sobhani.nasab</a>
+    <a class="wa" href="https://wa.me/989058724626" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.6-1.5-.9-2.1-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3zM12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2z"/></svg> واتساپ</a>
+  </div>
+  <div class="copy">© ۱۴۰۴ — تمامی حقوق این سایت متعلق به فاطمه سبحانی نسب است.</div>
+</footer>
+
+<div class="modal-bg" id="modalSearch"><div class="modal"><div class="modal-head"><h3><span class="bar"></span> 🔍 جستجوی کلمات</h3><button class="modal-close" data-close="modalSearch">✕</button></div><div class="modal-body"><input class="search-inp" id="searchInp" placeholder="کلمه انگلیسی یا فارسی..."><div id="searchResults"></div></div></div></div>
+<div class="modal-bg" id="modalFav"><div class="modal"><div class="modal-head"><h3><span class="bar"></span> ⭐ کلمات مورد علاقه</h3><button class="modal-close" data-close="modalFav">✕</button></div><div class="modal-body" id="favList"></div></div></div>
+<div class="modal-bg" id="modalStats"><div class="modal"><div class="modal-head"><h3><span class="bar"></span> 📊 آمار پیشرفت</h3><button class="modal-close" data-close="modalStats">✕</button></div><div class="modal-body" id="statsBody"></div></div></div>
+<div class="modal-bg" id="modalQuiz"><div class="modal"><div class="modal-head"><h3><span class="bar"></span> 📝 آزمون</h3><button class="modal-close" data-close="modalQuiz">✕</button></div><div class="modal-body" id="quizBody"></div><div class="modal-foot" id="quizFoot"></div></div></div>
+
+<button id="top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<div id="toast"></div>
+
+<script>
+const DATA={
+7:{name:"پایه هفتم",book:"Prospect 1",icon:"۷",lessons:[
+{t:"Lesson 1 — My Name",sub:"اسم من",v:[["name","اسم"],["first name","اسم کوچک"],["last name","نام خانوادگی"],["Mr.","آقا"],["Mrs.","خانم"],["Miss","خانم (دوشیزه)"],["hello","سلام"],["hi","سلام"],["good morning","صبح بخیر"],["good afternoon","عصر بخیر"],["good evening","شب بخیر"],["goodbye","خداحافظ"],["nice to meet you","از آشنایی خوشحالم"],["How are you?","حالت چطور است؟"],["fine","خوب"],["thank you","متشکرم"],["you're welcome","خواهش می‌کنم"],["excuse me","ببخشید"],["sorry","متاسفم"]],c:[["A","Hello. My name is Ali. What's your name?","سلام. اسم من علی است. اسم تو چیست؟"],["B","Hi. My name is Sara. Nice to meet you.","سلام. اسم من سارا است. از آشنایی خوشحالم."],["A","Nice to meet you too. How are you?","من هم خوشحالم. حالت چطور است؟"],["B","I'm fine, thank you. And you?","خوبم، متشکرم. تو چطور؟"],["A","I'm fine, thanks. Goodbye.","من هم خوبم. خداحافظ."],["B","Goodbye. See you tomorrow.","خداحافظ. فردا می‌بینمت."]],g:{t:"Verb to be (am / is / are)",b:"فعل «بودن» پرکاربردترین فعل انگلیسی است. برای معرفی خود، سن، شغل و حالت استفاده می‌شود: <strong>I am</strong>، <strong>You are</strong>، <strong>He/She/It is</strong>، <strong>We/You/They are</strong>.",e:[["I am a student.","من دانش‌آموزم."],["You are my friend.","تو دوست منی."],["He is a teacher.","او معلم است."],["She is Sara.","او سارا است."],["We are from Iran.","ما اهل ایرانیم."],["They are happy.","آنها خوشحالند."]]}},
+{t:"Lesson 2 — My Class",sub:"کلاس من",v:[["class","کلاس"],["classroom","کلاس درس"],["student","دانش‌آموز"],["teacher","معلم"],["book","کتاب"],["notebook","دفتر"],["pen","خودکار"],["pencil","مداد"],["eraser","پاک‌کن"],["ruler","خط‌کش"],["bag","کیف"],["desk","میز"],["chair","صندلی"],["board","تخته"],["door","در"],["window","پنجره"],["wall","دیوار"],["floor","کف"],["clock","ساعت"],["map","نقشه"],["computer","کامپیوتر"]],c:[["A","What's this in English?","این به انگلیسی چه می‌شود؟"],["B","It's a pencil.","این یک مداد است."],["A","How do you spell it?","چطور هجی می‌شود؟"],["B","P-E-N-C-I-L.","پ-م-د-ا-د"],["A","Thank you. And what's that?","متشکرم. و آن چیست؟"],["B","That's an eraser.","آن یک پاک‌کن است."]],g:{t:"This / That / These / Those + a / an",b:"<strong>This</strong> = این (نزدیک)، <strong>That</strong> = آن (دور)، <strong>These</strong> = این‌ها، <strong>Those</strong> = آن‌ها. حرف تعریف <strong>a</strong> قبل از حرف بی‌صدا و <strong>an</strong> قبل از حرف صدادار (a, e, i, o, u).",e:[["This is a book.","این یک کتاب است."],["That is an apple.","آن یک سیب است."],["These are pencils.","این‌ها مداد هستند."],["Those are chairs.","آن‌ها صندلی هستند."],["It's an eraser.","این یک پاک‌کن است."],["She is a teacher.","او یک معلم است."]]}},
+{t:"Lesson 3 — My Age",sub:"سن من",v:[["age","سن"],["year","سال"],["old","ساله"],["How old are you?","چند سال داری؟"],["birthday","تولد"],["number","عدد"],["telephone","تلفن"],["phone number","شماره تلفن"],["one","یک"],["two","دو"],["three","سه"],["four","چهار"],["five","پنج"],["ten","ده"],["twelve","دوازده"],["thirteen","سیزده"],["twenty","بیست"],["thirty","سی"],["hundred","صد"],["date","تاریخ"]],c:[["A","How old are you?","چند سال داری؟"],["B","I'm thirteen years old. And you?","من سیزده سال دارم. تو چطور؟"],["A","I'm fourteen. When is your birthday?","من چهارده سال دارم. تولدت چه زمانی؟"],["B","It's on the fifth of May.","پنجم ماه می است."],["A","What's your phone number?","شماره تلفنت چیست؟"],["B","It's 0912 345 6789.","۰۹۱۲۳۴۵۶۷۸۹ است."]],g:{t:"Wh-questions + Numbers",b:"کلمات پرسشی: <strong>What</strong> (چه)، <strong>Who</strong> (کی)، <strong>Where</strong> (کجا)، <strong>When</strong> (چه وقت)، <strong>How old</strong> (چند سال). اعداد ۱۳ تا ۱۹ با پسوند <strong>-teen</strong> و دهگان‌ها با <strong>-ty</strong> ساخته می‌شوند.",e:[["How old are you?","چند سال داری؟"],["I'm fifteen.","پانزده سال دارم."],["What's your phone number?","شماره تلفنت چیست؟"],["When is your birthday?","تولدت چه زمانی است؟"],["It's on the tenth of May.","دهم ماه می."],["She is thirteen years old.","او سیزده سال دارد."]]}},
+{t:"Lesson 4 — My Family",sub:"خانواده من",v:[["family","خانواده"],["father","پدر"],["mother","مادر"],["brother","برادر"],["sister","خواهر"],["grandfather","پدربزرگ"],["grandmother","مادربزرگ"],["uncle","عمو/دایی"],["aunt","عمه/خاله"],["son","پسر"],["daughter","دختر"],["husband","شوهر"],["wife","همسر"],["parents","والدین"],["children","فرزندان"],["boy","پسر"],["girl","دختر"],["baby","نوزاد"],["cousin","پسرعمو"],["family member","عضو خانواده"]],c:[["A","Who is this in the photo?","این فرد در عکس کیست؟"],["B","This is my father. His name is Reza.","این پدر من است. اسمش رضا."],["A","And who is that woman?","و آن خانم کیست؟"],["B","That's my mother. She is a teacher.","آن مادرم است. او معلم است."],["A","Do you have any brothers or sisters?","برادر یا خواهری داری؟"],["B","Yes, I have one sister.","بله، یک خواهر دارم."]],g:{t:"Possessive Adjectives",b:"صفات ملکی مالکیت را نشان می‌دهند: <strong>my</strong> (مال من)، <strong>your</strong> (مال تو)، <strong>his</strong> (مال او-مذکر)، <strong>her</strong> (مال او-مؤنث)، <strong>its</strong> (مال آن)، <strong>our</strong> (مال ما)، <strong>their</strong> (مال آن‌ها).",e:[["This is my father.","این پدر من است."],["His name is Reza.","اسمش رضا است."],["Her mother is a doctor.","مادرش دکتر است."],["Our house is big.","خانه‌مان بزرگ است."],["Their children are students.","فرزندانشان دانش‌آموزند."],["What's your name?","اسمت چیست؟"]]}},
+{t:"Lesson 5 — My Address",sub:"آدرس من",v:[["address","آدرس"],["street","خیابان"],["city","شهر"],["village","روستا"],["country","کشور"],["post code","کد پستی"],["where","کجا"],["live","زندگی کردن"],["near","نزدیک"],["far","دور"],["here","اینجا"],["there","آنجا"],["road","جاده"],["avenue","بلوار"],["alley","کوچه"],["north","شمال"],["south","جنوب"],["east","شرق"],["west","غرب"],["map","نقشه"]],c:[["A","Where do you live?","کجا زندگی می‌کنی؟"],["B","I live in Tehran, on Azadi Street.","در تهران، خیابان آزادی."],["A","What's your address?","آدرس تو چیست؟"],["B","Number 15, Azadi Street, Tehran.","شماره ۱۵، خیابان آزادی، تهران."],["A","Is it far from school?","از مدرسه دور است؟"],["B","No, it's very near.","نه، خیلی نزدیک است."]],g:{t:"Prepositions of Place (in / on / at / near)",b:"حروف اضافه مکان: <strong>in</strong> (در/داخل)، <strong>on</strong> (روی)، <strong>at</strong> (در-نقطه‌ای خاص)، <strong>near</strong> (نزدیک)، <strong>next to</strong> (کنار)، <strong>behind</strong> (پشت)، <strong>in front of</strong> (جلوی).",e:[["I live in Tehran.","در تهران زندگی می‌کنم."],["The book is on the desk.","کتاب روی میز است."],["She is at school.","او در مدرسه است."],["The bank is near the park.","بانک نزدیک پارک است."],["He sits next to me.","او کنار من می‌نشیند."],["The cat is under the table.","گربه زیر میز است."]]}},
+{t:"Lesson 6 — My Favorite Food",sub:"غذای مورد علاقه",v:[["food","غذا"],["favorite","مورد علاقه"],["rice","برنج"],["bread","نان"],["cheese","پنیر"],["milk","شیر"],["egg","تخم‌مرغ"],["meat","گوشت"],["chicken","مرغ"],["fish","ماهی"],["fruit","میوه"],["apple","سیب"],["orange","پرتقال"],["banana","موز"],["water","آب"],["tea","چای"],["breakfast","صبحانه"],["lunch","ناهار"],["dinner","شام"],["delicious","خوشمزه"]],c:[["A","What's your favorite food?","غذای مورد علاقه‌ات؟"],["B","My favorite food is rice and chicken.","برنج و مرغ."],["A","Do you like fish?","ماهی دوست داری؟"],["B","No, I don't like fish. But I like fruit.","نه، ماهی دوست ندارم. میوه دوست دارم."],["A","What do you eat for breakfast?","صبحانه چه می‌خوری؟"],["B","I eat bread, cheese and tea.","نان، پنیر و چای."]],g:{t:"Simple Present + Do / Does",b:"زمان حال ساده برای عادت‌ها و واقعیت‌ها. برای سوال از <strong>Do</strong> (با I/You/We/They) و <strong>Does</strong> (با He/She/It) استفاده می‌شود. منفی: <strong>don't / doesn't</strong>.",e:[["I like rice.","برنج دوست دارم."],["She likes tea.","او چای دوست دارد."],["Do you like fish?","ماهی دوست داری؟"],["Does he eat breakfast?","او صبحانه می‌خورد؟"],["I don't like milk.","شیر دوست ندارم."],["She doesn't drink coffee.","او قهوه نمی‌نوشد."]]}},
+{t:"Lesson 7 — My Week",sub:"هفته من",v:[["week","هفته"],["Saturday","شنبه"],["Sunday","یکشنبه"],["Monday","دوشنبه"],["Tuesday","سه‌شنبه"],["Wednesday","چهارشنبه"],["Thursday","پنجشنبه"],["Friday","جمعه"],["today","امروز"],["tomorrow","فردا"],["yesterday","دیروز"],["morning","صبح"],["afternoon","بعدازظهر"],["evening","عصر"],["night","شب"],["day","روز"],["month","ماه"],["year","سال"],["holiday","تعطیلات"]],c:[["A","What day is it today?","امروز چه روزی است؟"],["B","Today is Monday.","امروز دوشنبه است."],["A","What do you do on Friday?","جمعه‌ها چه کار می‌کنی؟"],["B","I go to the park with my family.","با خانواده به پارک می‌روم."],["A","Do you go to school on Thursday?","پنجشنبه به مدرسه می‌روی؟"],["B","No, Thursday is a holiday.","نه، پنجشنبه تعطیل است."]],g:{t:"Prepositions of Time (on / in / at)",b:"<strong>on</strong> برای روزها (on Monday)، <strong>in</strong> برای ماه‌ها، فصل‌ها و سال (in May, in summer) و بخش‌های روز (in the morning)، <strong>at</strong> برای ساعت و شب (at 5 o'clock, at night).",e:[["I go to school on Sunday.","یکشنبه به مدرسه می‌روم."],["We have a holiday in May.","در ماه می تعطیل هستیم."],["She gets up at 7 o'clock.","ساعت ۷ بیدار می‌شود."],["I study in the evening.","عصر مطالعه می‌کنم."],["He sleeps at night.","شب می‌خوابد."],["My birthday is on Friday.","تولدم جمعه است."]]}},
+{t:"Lesson 8 — My Hobby",sub:"سرگرمی من",v:[["hobby","سرگرمی"],["like","دوست داشتن"],["play","بازی کردن"],["watch","تماشا"],["read","خواندن"],["listen","گوش دادن"],["football","فوتبال"],["basketball","بسکتبال"],["swimming","شنا"],["music","موسیقی"],["movie","فیلم"],["book","کتاب"],["painting","نقاشی"],["cooking","آشپزی"],["gardening","باغبانی"],["running","دویدن"],["dancing","رقصیدن"],["singing","آواز"],["drawing","طراحی"],["interesting","جالب"]],c:[["A","What's your hobby?","سرگرمی‌ات چیست؟"],["B","My hobby is playing football.","فوتبال بازی کردن."],["A","Do you like music?","موسیقی دوست داری؟"],["B","Yes, I listen to music every day.","بله، هر روز گوش می‌دهم."],["A","What do you do in your free time?","وقت آزاد چه می‌کنی؟"],["B","I read books and watch movies.","کتاب می‌خوانم و فیلم می‌بینم."]],g:{t:"Can + Verb / Like + Verb-ing",b:"<strong>Can</strong> برای توانایی: can + فعل ساده. <strong>Like + verb-ing</strong> برای بیان علاقه. مثال: I like swimming.",e:[["I can play football.","می‌توانم فوتبال بازی کنم."],["She can swim.","او می‌تواند شنا کند."],["Can you cook?","می‌توانی آشپزی کنی؟"],["I like reading books.","خواندن کتاب دوست دارم."],["He enjoys playing chess.","او شطرنج را دوست دارد."],["They love swimming.","آنها شنا را دوست دارند."]]}}
+]},
+8:{name:"پایه هشتم",book:"Prospect 2",icon:"۸",lessons:[
+{t:"Lesson 1 — My Nationality",sub:"ملیت من",v:[["nationality","ملیت"],["Iranian","ایرانی"],["country","کشور"],["flag","پرچم"],["language","زبان"],["Persian","فارسی"],["English","انگلیسی"],["from","از"],["live","زندگی"],["capital","پایتخت"],["Tehran","تهران"],["city","شهر"],["foreign","خارجی"],["citizen","شهروند"],["abroad","خارج"]],c:[["A","Where are you from?","اهل کجایی؟"],["B","I'm from Iran. I'm Iranian.","اهل ایرانم. ایرانی هستم."],["A","What's the capital of Iran?","پایتخت ایران؟"],["B","Tehran is the capital of Iran.","تهران پایتخت ایران است."],["A","What language do you speak?","چه زبانی صحبت می‌کنی؟"],["B","I speak Persian. And I learn English.","فارسی. و انگلیسی یاد می‌گیرم."]],g:{t:"Present Simple (حال ساده)",b:"برای بیان واقعیت‌ها، عادت‌ها و کارهای روزمره. با سوم شخص مفرد (He/She/It) به فعل <strong>-s</strong> یا <strong>-es</strong> اضافه می‌شود. منفی با don't/doesn't.",e:[["I speak Persian.","فارسی صحبت می‌کنم."],["She speaks English.","او انگلیسی صحبت می‌کند."],["We live in Iran.","ما در ایران زندگی می‌کنیم."],["Does he speak English?","او انگلیسی صحبت می‌کند؟"],["They don't live here.","آنها اینجا زندگی نمی‌کنند."],["He works in a bank.","او در بانک کار می‌کند."]]}},
+{t:"Lesson 2 — My Daily Routine",sub:"برنامه روزانه",v:[["daily routine","برنامه روزانه"],["get up","از خواب برخاستن"],["wake up","بیدار شدن"],["go to school","به مدرسه رفتن"],["do homework","انجام تکالیف"],["watch TV","تماشای تلویزیون"],["always","همیشه"],["usually","معمولاً"],["often","اغلب"],["sometimes","گاهی"],["never","هرگز"],["early","زود"],["late","دیر"],["have breakfast","صبحانه خوردن"],["go to bed","خوابیدن"],["brush teeth","مسواک زدن"]],c:[["A","What time do you get up?","چه ساعتی بیدار می‌شوی؟"],["B","I usually get up at six thirty.","معمولاً شش و نیم."],["A","Do you always have breakfast?","همیشه صبحانه می‌خوری؟"],["B","Yes, I always have breakfast.","بله، همیشه."],["A","When do you do your homework?","کِی تکالیفت را انجام می‌دهی؟"],["B","I do my homework after dinner.","بعد از شام."]],g:{t:"Adverbs of Frequency",b:"<strong>always</strong> (۱۰۰٪) → <strong>usually</strong> (۸۰٪) → <strong>often</strong> (۶۰٪) → <strong>sometimes</strong> (۴۰٪) → <strong>never</strong> (۰٪). قبل از فعل اصلی و بعد از فعل to be.",e:[["I always have breakfast.","همیشه صبحانه می‌خورم."],["She usually gets up early.","معمولاً زود بیدار می‌شود."],["We sometimes watch TV.","گاهی تلویزیون تماشا می‌کنیم."],["He never eats fast food.","هرگز فست‌فود نمی‌خورد."],["I am always happy.","من همیشه خوشحالم."],["They are often late.","آنها اغلب دیر می‌رسند."]]}},
+{t:"Lesson 3 — My Health",sub:"سلامتی من",v:[["health","سلامتی"],["healthy","سالم"],["ill","بیمار"],["sick","مریض"],["headache","سردرد"],["stomachache","دل‌درد"],["toothache","دندان‌درد"],["cold","سرماخوردگی"],["fever","تب"],["doctor","دکتر"],["medicine","دارو"],["rest","استراحت"],["hospital","بیمارستان"],["nurse","پرستار"],["pain","درد"],["feel","احساس"],["better","بهتر"],["tired","خسته"]],c:[["A","What's the matter?","چه مشکلی داری؟"],["B","I have a headache.","سردرد دارم."],["A","You should see a doctor.","بهتره به دکتر بروی."],["B","Yes, I will. Thank you.","بله، می‌روم. متشکرم."],["A","Take this medicine and rest.","این دارو را بخور و استراحت کن."],["B","OK. I hope I feel better soon.","باشه. امیدوارم بهتر شوم."]],g:{t:"Should / Shouldn't",b:"برای بیان توصیه و نصیحت. ساختار: <strong>should + فعل ساده</strong>. منفی: <strong>shouldn't</strong>.",e:[["You should see a doctor.","بهتره به دکتر بروی."],["He should rest at home.","او باید در خانه استراحت کند."],["You shouldn't eat too much.","نباید زیاد بخوری."],["We should drink water.","باید آب بنوشیم."],["She should take medicine.","او باید دارو بخورد."],["They shouldn't smoke.","آنها نباید سیگار بکشند."]]}},
+{t:"Lesson 4 — My City",sub:"شهر من",v:[["city","شهر"],["street","خیابان"],["park","پارک"],["library","کتابخانه"],["museum","موزه"],["hospital","بیمارستان"],["bank","بانک"],["restaurant","رستوران"],["supermarket","سوپرمارکت"],["mosque","مسجد"],["square","میدان"],["traffic","ترافیک"],["pollution","آلودگی"],["crowded","شلوغ"],["quiet","ساکت"],["building","ساختمان"],["bridge","پل"],["tower","برج"]],c:[["A","Is your city big or small?","شهرت بزرگ یا کوچک؟"],["B","It's a big and crowded city.","بزرگ و شلوغ."],["A","What places are there in your city?","چه مکان‌هایی هست؟"],["B","There are parks, museums and libraries.","پارک، موزه و کتابخانه."],["A","Is the traffic heavy?","ترافیک سنگین است؟"],["B","Yes, there is a lot of traffic.","بله، ترافیک زیادی هست."]],g:{t:"There is / There are",b:"<strong>There is</strong> با اسم مفرد و <strong>There are</strong> با اسم جمع. سوال: Is there...? / Are there...?",e:[["There is a park near my house.","نزدیک خانه‌ام پارکی هست."],["There are many shops.","مغازه‌های زیادی وجود دارد."],["Is there a bank here?","اینجا بانکی هست؟"],["There aren't any museums.","هیچ موزه‌ای نیست."],["There is a lot of traffic.","ترافیک زیادی هست."],["There are two libraries.","دو کتابخانه هست."]]}},
+{t:"Lesson 5 — My Village",sub:"روستای من",v:[["village","روستا"],["farm","مزرعه"],["farmer","کشاورز"],["field","زمین کشاورزی"],["mountain","کوه"],["river","رودخانه"],["tree","درخت"],["animal","حیوان"],["cow","گاو"],["sheep","گوسفند"],["chicken","مرغ"],["quiet","ساکت"],["fresh","تازه"],["air","هوا"],["nature","طبیعت"],["grow","کاشتن"],["clean","تمیز"],["beautiful","زیبا"]],c:[["A","Do you live in a village?","در روستا زندگی می‌کنی؟"],["B","Yes, I live in a small village.","در روستای کوچکی."],["A","What's in your village?","چه چیزی در روستایت هست؟"],["B","There are farms, mountains and a river.","مزرعه، کوه و رودخانه."],["A","Is the air fresh?","هوا تازه است؟"],["B","Yes, the air is very clean and fresh.","بله، تمیز و تازه."]],g:{t:"Adjectives",b:"صفات کلماتی هستند که اسم را توصیف می‌کنند. در انگلیسی صفت <strong>قبل از اسم</strong> می‌آید. صفت‌ها جمع و مفرد ندارند.",e:[["It is a beautiful village.","روستای زیبایی است."],["The air is fresh.","هوا تازه است."],["She has long hair.","او موهای بلندی دارد."],["This is a small farm.","این مزرعه کوچکی است."],["They live in a quiet place.","در جای ساکتی زندگی می‌کنند."],["The river is clean.","رودخانه تمیز است."]]}},
+{t:"Lesson 6 — My Hobbies",sub:"سرگرمی‌های من",v:[["hobby","سرگرمی"],["collect","جمع کردن"],["stamp","تمبر"],["coin","سکه"],["photography","عکاسی"],["painting","نقاشی"],["chess","شطرنج"],["hiking","کوه‌پیمایی"],["fishing","ماهیگیری"],["interested in","علاقه‌مند به"],["free time","وقت آزاد"],["enjoy","لذت بردن"],["skill","مهارت"],["practice","تمرین"],["talent","استعداد"],["competition","مسابقه"]],c:[["A","What are your hobbies?","سرگرمی‌هایت چیست؟"],["B","I'm interested in photography.","به عکاسی علاقه‌مندم."],["A","Do you collect anything?","چیزی جمع می‌کنی؟"],["B","Yes, I collect stamps and coins.","تمبر و سکه."],["A","How often do you practice?","چند وقت یک‌بار تمرین می‌کنی؟"],["B","I practice every weekend.","هر آخر هفته."]],g:{t:"Present Continuous",b:"برای کارهایی که همین الان یا در این دوره در حال انجام است. ساختار: <strong>am/is/are + فعل-ing</strong>.",e:[["I am reading a book now.","الان دارم کتاب می‌خوانم."],["She is playing football.","او دارد فوتبال بازی می‌کند."],["They are watching TV.","آنها دارند تلویزیون تماشا می‌کنند."],["Are you listening?","داری گوش می‌دهی؟"],["He isn't working today.","امروز کار نمی‌کند."],["We are learning English.","داریم انگلیسی یاد می‌گیریم."]]}},
+{t:"Lesson 7 — My Favorite Food",sub:"غذای مورد علاقه",v:[["recipe","دستور پخت"],["ingredient","ماده اولیه"],["vegetable","سبزیجات"],["salad","سالاد"],["soup","سوپ"],["kebab","کباب"],["pizza","پیتزا"],["cake","کیک"],["sweet","شیرین"],["salty","شور"],["sour","ترش"],["spicy","تند"],["taste","طعم"],["cook","پختن"],["delicious","خوشمزه"],["hungry","گرسنه"],["thirsty","تشنه"]],c:[["A","What's your favorite dish?","غذای مورد علاقه‌ات؟"],["B","I love kebab. It's delicious.","کباب. خوشمزه است."],["A","Can you cook?","آشپزی می‌توانی؟"],["B","Yes, I can cook simple dishes.","بله، غذاهای ساده."],["A","Do you like spicy food?","غذای تند دوست داری؟"],["B","No, I prefer mild food.","نه، ملایم ترجیح می‌دهم."]],g:{t:"Countable / Uncountable + How much / How many",b:"اسم‌های قابل شمارش با <strong>How many</strong> و غیرقابل شمارش با <strong>How much</strong>. <strong>some</strong> در جملات مثبت و <strong>any</strong> در سوال و منفی.",e:[["How many apples do you have?","چند تا سیب داری؟"],["How much water do you drink?","چقدر آب می‌نوشی؟"],["I have some bread.","مقداری نان دارم."],["There isn't any milk.","شیری نیست."],["We need some vegetables.","به سبزیجات نیاز داریم."],["Do you have any cheese?","پنیر داری؟"]]}}
+]},
+9:{name:"پایه نهم",book:"Prospect 3",icon:"۹",lessons:[
+{t:"Lesson 1 — Personality",sub:"شخصیت",v:[["personality","شخصیت"],["kind","مهربان"],["brave","شجاع"],["honest","صادق"],["polite","مودب"],["patient","صبور"],["generous","سخاوتمند"],["shy","خجالتی"],["lazy","تنبل"],["hardworking","سخت‌کوش"],["clever","باهوش"],["funny","خنده‌دار"],["friendly","خوش‌برخورد"],["confident","با اعتماد به نفس"],["helpful","کمک‌کننده"],["calm","آرام"],["serious","جدی"],["reliable","قابل اعتماد"]],c:[["A","What is your best friend like?","بهترین دوستت چه شخصیتی دارد؟"],["B","He is very kind and honest.","مهربان و صادق."],["A","Is he hardworking?","سخت‌کوش است؟"],["B","Yes, he is hardworking and clever.","بله، سخت‌کوش و باهوش."],["A","What about you?","خودت چطور؟"],["B","I'm a bit shy but very friendly.","کمی خجالتی اما خوش‌برخورد."]],g:{t:"Adjective + Be",b:"صفت‌ها قبل از اسم می‌آیند و ترتیب‌شان: نظر → اندازه → سن → رنگ → ملیت → جنس. بعد از فعل <strong>to be</strong> هم صفت می‌آید.",e:[["He is very kind and honest.","او خیلی مهربان و صادق است."],["She is a clever girl.","دختر باهوشی است."],["They are friendly people.","مردم خوش‌برخوردی هستند."],["I have a big old house.","خانه‌ی بزرگ و قدیمی دارم."],["He seems very confident.","به نظر خیلی با اعتماد به نفس است."],["My friend is reliable.","دوست من قابل اعتماد است."]]}},
+{t:"Lesson 2 — Travel",sub:"سفر",v:[["travel","سفر کردن"],["trip","سفر"],["journey","سفر طولانی"],["ticket","بلیط"],["passport","گذرنامه"],["luggage","چمدان"],["hotel","هتل"],["airport","فرودگاه"],["train","قطار"],["bus","اتوبوس"],["plane","هواپیما"],["ship","کشتی"],["tourist","گردشگر"],["visit","بازدید"],["sightseeing","گشت‌وگذار"],["destination","مقصد"],["reserve","رزرو کردن"],["guide","راهنما"]],c:[["A","Where did you travel last summer?","تابستان گذشته کجا سفر کردی؟"],["B","I traveled to Isfahan with my family.","با خانواده به اصفهان."],["A","How did you go there?","چطور رفتید؟"],["B","We went there by train.","با قطار."],["A","What did you visit?","از چه جاهایی بازدید کردید؟"],["B","We visited many historical places.","از مکان‌های تاریخی زیادی."]],g:{t:"Past Simple",b:"برای کارهای تمام‌شده در گذشته. افعال با قاعده: <strong>verb + ed</strong>. بی‌قاعده شکل خاص دارند (go → went). منفی و سوال با <strong>did / didn't + فعل ساده</strong>.",e:[["I traveled to Isfahan last year.","پارسال به اصفهان سفر کردم."],["She visited her grandmother.","به دیدن مادربزرگش رفت."],["We went to the museum.","به موزه رفتیم."],["He didn't come yesterday.","دیروز نیامد."],["Did you see the tower?","برج را دیدی؟"],["They bought tickets.","بلیط خریدن."]]}},
+{t:"Lesson 3 — Festivals",sub:"جشن‌ها",v:[["festival","جشنواره"],["ceremony","مراسم"],["celebrate","جشن گرفتن"],["Nowruz","نوروز"],["Eid","عید"],["wedding","عروسی"],["birthday","تولد"],["gift","هدیه"],["candle","شمع"],["cake","کیک"],["guest","مهمان"],["traditional","سنتی"],["custom","رسم"],["culture","فرهنگ"],["decoration","تزئین"],["invite","دعوت کردن"],["party","مهمانی"],["memory","خاطره"]],c:[["A","What is your favorite festival?","جشن مورد علاقه‌ات؟"],["B","My favorite festival is Nowruz.","نوروز."],["A","How do you celebrate it?","چطور جشن می‌گیرید؟"],["B","We visit our family and give gifts.","به دیدن خانواده می‌رویم و هدیه می‌دهیم."],["A","What traditional food do you eat?","چه غذای سنتی می‌خورید؟"],["B","We eat fish and rice on Nowruz.","ماهی و برنج."]],g:{t:"Present Perfect",b:"برای کارهایی که در گذشته شروع شده و اثرش باقی است. ساختار: <strong>have/has + Past Participle (p.p.)</strong>.",e:[["I have visited Isfahan twice.","دو بار اصفهان رفته‌ام."],["She has finished her homework.","او تکالیفش را تمام کرده است."],["Have you ever been to a wedding?","تا حالا عروسی رفته‌ای؟"],["They haven't seen this festival.","آنها این جشنواره را ندیده‌اند."],["We have known each other for years.","سال‌هاست همدیگر را می‌شناسیم."],["He has bought a gift.","او یک هدیه خریده است."]]}},
+{t:"Lesson 4 — Services",sub:"خدمات",v:[["service","خدمات"],["post office","اداره پست"],["police","پلیس"],["fire station","آتش‌نشانی"],["gas station","پمپ بنزین"],["repair","تعمیر"],["mechanic","مکانیک"],["tailor","خیاط"],["barber","آرایشگر"],["baker","نانوا"],["bank","بانک"],["customer","مشتری"],["employee","کارمند"],["appointment","قرار ملاقات"],["queue","صف"],["receipt","رسید"],["discount","تخفیف"],["order","سفارش"]],c:[["A","Where can I post this letter?","کجا نامه را پست کنم؟"],["B","You can go to the post office.","به اداره پست."],["A","Is it far from here?","از اینجا دور است؟"],["B","No, it's just around the corner.","نه، همین نزدیکی."],["A","What time does it open?","چه ساعتی باز می‌شود؟"],["B","It opens at eight in the morning.","ساعت هشت صبح."]],g:{t:"Modal Verbs",b:"افعال کمکی وجهی: <strong>can</strong> (توانستن)، <strong>must</strong> (باید)، <strong>should</strong> (بهتره)، <strong>have to</strong> (مجبور بودن). بعد از آنها فعل <strong>ساده</strong> می‌آید.",e:[["You can go to the post office.","می‌توانی به اداره پست بروی."],["You must show your passport.","باید گذرنامه‌ات را نشان دهی."],["You should make an appointment.","بهتره قرار ملاقات بگیری."],["I have to pay the bill.","باید صورتحساب را پرداخت کنم."],["Can you help me?","می‌توانی کمکم کنی؟"],["She must wait in the queue.","او باید در صف بماند."]]}},
+{t:"Lesson 5 — Media",sub:"رسانه",v:[["media","رسانه"],["TV","تلویزیون"],["radio","رادیو"],["newspaper","روزنامه"],["magazine","مجله"],["internet","اینترنت"],["website","وب‌سایت"],["mobile","موبایل"],["message","پیام"],["news","خبر"],["advertisement","تبلیغات"],["channel","کانال"],["program","برنامه"],["information","اطلاعات"],["social media","شبکه اجتماعی"],["download","دانلود"],["upload","آپلود"],["online","آنلاین"]],c:[["A","How do you get the news?","اخبار را چطور می‌گیری؟"],["B","I usually read the news online.","معمولاً آنلاین."],["A","Do you use social media?","از شبکه‌های اجتماعی استفاده می‌کنی؟"],["B","Yes, but only for a short time.","بله، اما کوتاه."],["A","What's your favorite TV program?","برنامه تلویزیونی مورد علاقه‌ات؟"],["B","I like documentary programs.","مستند."]],g:{t:"Future (will / be going to)",b:"<strong>will + verb</strong> برای تصمیم لحظه‌ای یا پیش‌بینی، <strong>am/is/are going to + verb</strong> برای برنامه‌ریزی قبلی.",e:[["I will call you tomorrow.","فردا بهت زنگ می‌زنم."],["She is going to travel next week.","او هفته آینده سفر خواهد کرد."],["Will you help me?","کمکم می‌کنی؟"],["We are going to watch a movie.","می‌خواهیم فیلم تماشا کنیم."],["It will rain tonight.","امشب باران می‌بارد."],["They are going to buy a new phone.","قرار است گوشی جدید بخرند."]]}},
+{t:"Lesson 6 — Health and Injuries",sub:"سلامتی و آسیب‌ها",v:[["injury","آسیب"],["hurt","درد گرفتن"],["break","شکستن"],["cut","بریدن"],["burn","سوختن"],["bandage","باند"],["ambulance","آمبولانس"],["emergency","اورژانس"],["accident","تصادف"],["careful","مراقب"],["dangerous","خطرناک"],["safe","امن"],["first aid","کمک‌های اولیه"],["wound","زخم"],["medicine","دارو"],["protect","محافظت"],["helmet","کلاه ایمنی"],["prevent","پیشگیری"]],c:[["A","What happened to you?","چه اتفاقی افتاد؟"],["B","I fell down and hurt my leg.","افتادم و پایم آسیب دید."],["A","Does it hurt a lot?","خیلی درد می‌کند؟"],["B","Yes, it hurts. I need a bandage.","بله، به باند نیاز دارم."],["A","You should be more careful.","باید مراقب‌تر باشی."],["B","You're right. Thank you.","حق داری. متشکرم."]],g:{t:"First Conditional",b:"برای شرط‌های واقعی در آینده. ساختار: <strong>If + Present Simple, will + verb</strong>.",e:[["If you fall, you will get hurt.","اگر بیفتی، آسیب می‌بینی."],["If it rains, we will stay home.","اگر باران بیاید، در خانه می‌مانیم."],["If you don't wear a helmet, it's dangerous.","اگر کلاه ایمنی نپوشی، خطرناک است."],["If he studies, he will pass.","اگر درس بخواند، قبول می‌شود."],["If you are careful, you will be safe.","اگر مراقب باشی، امن خواهی بود."],["If I have time, I will call you.","اگر وقت داشته باشم، زنگ می‌زنم."]]}}
+]}};
+
+let currentRate=0.7,voiceList=[],voicesReady=false;
+function loadVoices(){if(!('speechSynthesis' in window))return;const v=speechSynthesis.getVoices();if(v&&v.length){voiceList=v;voicesReady=true}}
+if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;setTimeout(loadVoices,100);setTimeout(loadVoices,500);setTimeout(loadVoices,1500)}
+function pickVoice(){if(!voiceList.length)loadVoices();const p=[/Google US English/i,/Microsoft Aria/i,/Microsoft Jenny/i,/Microsoft Zira/i,/Samantha/i,/Karen/i];for(const r of p){const f=voiceList.find(v=>r.test(v.name));if(f)return f}return voiceList.find(v=>v.lang==='en-US')||voiceList.find(v=>v.lang&&v.lang.startsWith('en'))||null}
+function showToast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(showToast._t);showToast._t=setTimeout(()=>t.classList.remove('show'),2200)}
+function warmup(){try{const u=new SpeechSynthesisUtterance(' ');u.volume=0;speechSynthesis.speak(u)}catch(e){}loadVoices();document.removeEventListener('click',warmup)}
+document.addEventListener('click',warmup,{once:true});
+function speak(text,rate,cb){if(!('speechSynthesis' in window)){showToast('مرورگر پشتیبانی نمی‌کند');return}try{speechSynthesis.cancel()}catch(e){}const run=()=>{const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate||currentRate;u.pitch=1;u.volume=1;const v=pickVoice();if(v)u.voice=v;if(cb)u.onend=cb;u.onerror=()=>{if(cb)cb()};try{speechSynthesis.speak(u)}catch(e){}};if(!voicesReady||!voiceList.length){loadVoices();setTimeout(run,150)}else{run()}}
+let activeEl=null;
+function speakWord(t,b){if(activeEl)activeEl.classList.remove('speaking');const x=b.closest('.word, .line, .gram-ex-item');if(x){x.classList.add('speaking');activeEl=x}speak(t,currentRate,()=>{if(x)x.classList.remove('speaking');if(activeEl===x)activeEl=null})}
+let playing=false;
+function playList(items,btn){if(!('speechSynthesis' in window)){showToast('مرورگر پشتیبانی نمی‌کند');return}if(playing){speechSynthesis.cancel();playing=false;btn.classList.remove('stop');if(btn.dataset.orig)btn.innerHTML=btn.dataset.orig;return}playing=true;btn.dataset.orig=btn.innerHTML;btn.classList.add('stop');btn.innerHTML='⏹ توقف';let i=0;const n=()=>{if(!playing||i>=items.length){playing=false;btn.classList.remove('stop');btn.innerHTML=btn.dataset.orig;return}const u=new SpeechSynthesisUtterance(items[i++]);u.lang='en-US';u.rate=currentRate;u.pitch=1;const v=pickVoice();if(v)u.voice=v;u.onend=()=>setTimeout(n,420);u.onerror=()=>setTimeout(n,200);try{speechSynthesis.speak(u)}catch(e){n()}};n()}
+
+const favs=JSON.parse(localStorage.getItem('favs')||'[]');
+const progress=JSON.parse(localStorage.getItem('progress')||'{}');
+function saveFavs(){localStorage.setItem('favs',JSON.stringify(favs));updateFavCount()}
+function saveProg(){localStorage.setItem('progress',JSON.stringify(progress))}
+function updateFavCount(){document.getElementById('favCount').textContent=favs.length}
+function isFav(en){return favs.some(f=>f.en===en)}
+
+const gradeGrid=document.getElementById('gradeGrid'),lessonWrap=document.getElementById('lessonWrap');
+Object.keys(DATA).forEach(k=>{const g=DATA[k];const el=document.createElement('div');el.className='grade-card';el.dataset.grade=k;el.innerHTML=`<div class="g-ico">${g.icon}</div><h3>${g.name}</h3><div class="book">${g.book} — ${g.lessons.length} درس</div><div class="go">مشاهده درس‌ها</div>`;el.onclick=()=>openGrade(k,el);gradeGrid.appendChild(el)});
+
+function openGrade(key,cardEl){
+  document.querySelectorAll('.grade-card').forEach(c=>c.classList.remove('active'));
+  if(cardEl)cardEl.classList.add('active');
+  if(playing){speechSynthesis.cancel();playing=false}
+  activeEl=null;
+  const g=DATA[key];
+  lessonWrap.innerHTML=`<div class="lessons-head"><h2><span class="bar"></span> فهرست ${g.name} <small>(${g.book})</small></h2><div class="speed"><span>سرعت:</span><button data-r="0.5">آهسته</button><button data-r="0.7" class="on">مبتدی</button><button data-r="0.9">معمولی</button><button data-r="1.1">سریع</button></div></div><div id="lessonList"></div>`;
+  lessonWrap.querySelectorAll('.speed button').forEach(b=>{b.onclick=()=>{lessonWrap.querySelectorAll('.speed button').forEach(x=>x.classList.remove('on'));b.classList.add('on');currentRate=parseFloat(b.dataset.r);showToast('سرعت: '+b.textContent)}});
+  const list=document.getElementById('lessonList');
+  g.lessons.forEach((les,i)=>list.appendChild(buildLesson(les,i,key)));
+  setTimeout(()=>{document.getElementById('lessons').scrollIntoView({behavior:'smooth'})},80);
+}
+
+function buildLesson(les,idx,gradeKey){
+  const el=document.createElement('div');el.className='lesson';
+  el.innerHTML=`<div class="lesson-head"><div class="lnum">${idx+1}</div><div style="flex:1;min-width:0"><div class="ltitle">${les.t}</div><div class="lsub">${les.sub} — ${les.v.length} کلمه</div></div><div class="arrow">▼</div></div><div class="lesson-body"><div class="lesson-inner"><div class="tabs"><button class="tab on" data-p="v">📖 واژگان</button><button class="tab" data-p="g">📘 گرامر</button><button class="tab" data-p="c">💬 مکالمه</button></div><div class="pane on" data-p="v"><div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><button class="playall" data-all="v">🔊 پخش همه</button><button class="playall" data-all="q" style="background:linear-gradient(135deg,#10b981,#059669);color:#fff">📝 آزمون</button></div><div class="words"></div></div><div class="pane" data-p="g"><div class="gram-box"><div class="gram-title">${les.g.t}</div><div class="gram-body">${les.g.b}</div><div class="gram-ex">${les.g.e.map(([en,fa])=>`<div class="gram-ex-item"><button class="spk">🔊</button><div class="en">${en}</div><div class="fa">${fa}</div></div>`).join('')}</div></div></div><div class="pane" data-p="c"><button class="playall" data-all="c">🔊 پخش مکالمه</button><div class="conv"></div></div></div></div>`;
+  const wb=el.querySelector('.words');
+  les.v.forEach(([en,fa])=>{const w=document.createElement('div');w.className='word';w.innerHTML=`<button class="spk">🔊</button><div style="flex:1;min-width:0"><div class="w-en">${en}</div><div class="w-fa">${fa}</div></div><button class="heart ${isFav(en)?'on':''}">❤️</button>`;w.querySelector('.spk').onclick=e=>{e.stopPropagation();speakWord(en,w.querySelector('.spk'))};w.querySelector('.heart').onclick=e=>{e.stopPropagation();const h=e.currentTarget;if(isFav(en)){const i=favs.findIndex(f=>f.en===en);favs.splice(i,1);h.classList.remove('on');showToast('حذف شد')}else{favs.push({en,fa,grade:gradeKey});h.classList.add('on');showToast('ذخیره شد ⭐')}saveFavs()};wb.appendChild(w)});
+  const cb=el.querySelector('.conv');
+  les.c.forEach(([sp,en,fa])=>{const l=document.createElement('div');l.className='line';l.innerHTML=`<div class="avatar">${sp}</div><div class="body"><div class="en">${en}</div><div class="fa">${fa}</div></div><button class="spk">🔊</button>`;l.querySelector('.spk').onclick=e=>{e.stopPropagation();speakWord(en,l.querySelector('.spk'))};cb.appendChild(l)});
+  el.querySelectorAll('.gram-ex-item .spk').forEach((b,i)=>{b.onclick=e=>{e.stopPropagation();speakWord(les.g.e[i][0],b)}});
+  el.querySelectorAll('.tab').forEach(t=>{t.onclick=e=>{e.stopPropagation();el.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));el.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));t.classList.add('on');el.querySelector(`.pane[data-p="${t.dataset.p}"]`).classList.add('on');el.classList.add('open')}});
+  el.querySelector('[data-all="v"]').onclick=function(e){e.stopPropagation();playList(les.v.map(x=>x[0]),this)};
+  el.querySelector('[data-all="c"]').onclick=function(e){e.stopPropagation();playList(les.c.map(x=>x[1]),this)};
+  el.querySelector('[data-all="q"]').onclick=function(e){e.stopPropagation();startQuiz(les,gradeKey,idx)};
+  el.querySelector('.lesson-head').onclick=()=>{const w=el.classList.contains('open');if(playing){speechSynthesis.cancel();playing=false;document.querySelectorAll('.playall').forEach(b=>{b.classList.remove('stop');if(b.dataset.orig)b.innerHTML=b.dataset.orig})}document.querySelectorAll('.lesson').forEach(l=>l.classList.remove('open'));if(!w){el.classList.add('open');const k=gradeKey+'-'+idx;progress[k]=(progress[k]||0)+1;saveProg()}};
+  return el;
+}
+
+document.getElementById('btnSearch').onclick=()=>{document.getElementById('modalSearch').classList.add('show');document.getElementById('searchInp').focus();doSearch('')};
+document.getElementById('searchInp').addEventListener('input',e=>doSearch(e.target.value.trim()));
+function doSearch(q){const box=document.getElementById('searchResults');if(!q){box.innerHTML='<div style="text-align:center;color:var(--mu);padding:20px">شروع به تایپ کن...</div>';return}const ql=q.toLowerCase();const res=[];Object.keys(DATA).forEach(gk=>{DATA[gk].lessons.forEach(les=>{les.v.forEach(([en,fa])=>{if(en.toLowerCase().includes(ql)||fa.includes(q)){res.push({en,fa,lesson:les.t,grade:DATA[gk].name})}})})});if(!res.length){box.innerHTML='<div style="text-align:center;color:var(--mu);padding:20px">چیزی پیدا نشد</div>';return}box.innerHTML=res.slice(0,60).map(r=>`<div class="search-result"><button class="spk" onclick="event.stopPropagation();speak('${r.en.replace(/'/g,"\\'")}',0.7)">🔊</button><div style="flex:1"><div class="w-en">${r.en}</div><div class="w-fa">${r.fa}</div></div><span class="src">${r.grade} · ${r.lesson.split('—')[0].trim()}</span></div>`).join('')}
+
+document.getElementById('btnFav').onclick=()=>{renderFavs();document.getElementById('modalFav').classList.add('show')};
+function renderFavs(){const box=document.getElementById('favList');if(!favs.length){box.innerHTML='<div style="text-align:center;color:var(--mu);padding:40px">هنوز کلمه‌ای ذخیره نکردی</div>';return}box.innerHTML=favs.map((f,i)=>`<div class="search-result"><button class="spk" onclick="event.stopPropagation();speak('${f.en.replace(/'/g,"\\'")}',0.7)">🔊</button><div style="flex:1"><div class="w-en">${f.en}</div><div class="w-fa">${f.fa}</div></div><button class="heart on" onclick="event.stopPropagation();removeFav(${i})">❤️</button></div>`).join('')}
+function removeFav(i){favs.splice(i,1);saveFavs();renderFavs()}
+
+document.getElementById('btnStats').onclick=()=>{renderStats();document.getElementById('modalStats').classList.add('show')};
+function renderStats(){const total=Object.keys(DATA).reduce((s,k)=>s+DATA[k].lessons.length,0);const opened=Object.keys(progress).length;const reads=Object.values(progress).reduce((a,b)=>a+b,0);let h=`<div class="stat-grid"><div class="stat-card"><div class="num">${opened}</div><div class="lbl">درس باز شده</div></div><div class="stat-card"><div class="num">${favs.length}</div><div class="lbl">کلمه ذخیره‌شده</div></div><div class="stat-card"><div class="num">${reads}</div><div class="lbl">بازدید از درس‌ها</div></div><div class="stat-card"><div class="num">${total}</div><div class="lbl">کل درس‌ها</div></div></div>`;Object.keys(DATA).forEach(gk=>{const g=DATA[gk];let d=0;g.lessons.forEach((_,i)=>{if(progress[gk+'-'+i])d++});const p=Math.round(d/g.lessons.length*100);h+=`<div class="progress-item"><div class="row"><span>${g.name}</span><span class="pct">${p}%</span></div><div class="progress-bar"><div class="fill" style="width:${p}%"></div></div></div>`});document.getElementById('statsBody').innerHTML=h}
+
+let quizState=null;
+function startQuiz(les,gradeKey,idx){const qs=[];const aw=[];Object.keys(DATA).forEach(gk=>DATA[gk].lessons.forEach(l=>l.v.forEach(w=>aw.push(w))));les.v.forEach(w=>{const o=aw.filter(x=>x[1]!==w[1]);const wr=[];while(wr.length<3){const r=o[Math.floor(Math.random()*o.length)];if(r&&!wr.some(x=>x[1]===r[1]))wr.push(r)}const ops=[w,...wr].sort(()=>Math.random()-0.5);qs.push({q:w[0],a:w[1],opts:ops.map(x=>x[1])})});quizState={qs,cur:0,score:0,les,gradeKey,idx};renderQuiz();document.getElementById('modalQuiz').classList.add('show')}
+function renderQuiz(){const s=quizState;if(s.cur>=s.qs.length){const p=Math.round(s.score/s.qs.length*100);const st=p>=90?'⭐⭐⭐':p>=70?'⭐⭐':p>=50?'⭐':'';document.getElementById('quizBody').innerHTML=`<div class="quiz-result"><div class="score">${p}%</div><div class="stars">${st}</div><div class="msg">${s.score} از ${s.qs.length} پاسخ صحیح</div></div>`;document.getElementById('quizFoot').innerHTML=`<button class="btn-sm gold" onclick="startQuiz(quizState.les,quizState.gradeKey,quizState.idx)">🔄 دوباره</button><button class="btn-sm" style="background:var(--inp);color:var(--tx);border:1px solid var(--ln)" onclick="document.getElementById('modalQuiz').classList.remove('show')">بستن</button>`;return}const q=s.qs[s.cur];const p=Math.round(s.cur/s.qs.length*100);document.getElementById('quizBody').innerHTML=`<div class="quiz-progress"><div class="bar" style="width:${p}%"></div></div><div style="text-align:center;color:var(--mu);font-size:.8rem">سوال ${s.cur+1} از ${s.qs.length}</div><div class="quiz-q">${q.q}</div><div class="quiz-q-fa">معنی درست را انتخاب کن</div>${q.opts.map((o,i)=>`<button class="quiz-opt" onclick="answerQuiz(${i})">${o}</button>`).join('')}`;document.getElementById('quizFoot').innerHTML=''}
+function answerQuiz(i){const s=quizState,q=s.qs[s.cur];const b=document.querySelectorAll('.quiz-opt');b.forEach(x=>x.disabled=true);if(q.opts[i]===q.a){b[i].classList.add('correct');s.score++}else{b[i].classList.add('wrong');b.forEach(x=>{if(x.textContent===q.a)x.classList.add('correct')})}setTimeout(()=>{s.cur++;renderQuiz()},1200)}
+
+document.querySelectorAll('.modal-close').forEach(b=>{b.onclick=()=>document.getElementById(b.dataset.close).classList.remove('show')});
+document.querySelectorAll('.modal-bg').forEach(m=>{m.onclick=e=>{if(e.target===m)m.classList.remove('show')}});
+
+document.getElementById('btnTheme').onclick=()=>{const c=document.body.dataset.theme;const n=c==='dark'?'light':'dark';document.body.dataset.theme=n;document.getElementById('btnTheme').textContent=n==='dark'?'🌙':'☀️';localStorage.setItem('theme',n)};
+const st=localStorage.getItem('theme')||'dark';document.body.dataset.theme=st;document.getElementById('btnTheme').textContent=st==='dark'?'🌙':'☀️';
+updateFavCount();
+const hdr=document.getElementById('hdr'),topBtn=document.getElementById('top');
+window.addEventListener('scroll',()=>{hdr.classList.toggle('scrolled',window.scrollY>20);topBtn.classList.toggle('show',window.scrollY>500)});
+</script>
+</body>
+</html>
